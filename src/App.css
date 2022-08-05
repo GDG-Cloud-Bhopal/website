@@ -61,14 +61,33 @@ margin-left: 3rem;
 .homeleft{
   background-color: aquamarine;
   height: 100%;
-  width: 50%;
+  width: 55%;
 }
 .homeright{
   background-color: rgb(24, 43, 129);
   height: 100%;
-  width: 50%;
+  width: 45%;
 }
-
+.btn{
+ font-size: 1.1rem;
+ padding: 9px 12px;
+ border: none;
+ font-weight: 500;
+ border-radius: 4px;
+}
+.btn1{
+  background-color:#4285f4;
+  margin-right: 2rem;
+}
+.btn2{
+  background-color:#FBBC05;
+}
+.btn3{
+  background-color:#34A853;
+}
+.textbox{
+  padding-left: 10vw;
+}
 
 
 

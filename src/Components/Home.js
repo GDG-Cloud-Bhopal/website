@@ -11,7 +11,7 @@ const Home = () => {
                     <h5>Organized By :</h5>
                     <img src="" alt="" />
                     <h5>Date: 25 septembur</h5>
-                    <div className="button">
+                    <div className="flex button">
                         <button className='btn btn1'>Register Now</button>
                         <button className='btn btn2'>Become a Speaker</button>
                     </div>
