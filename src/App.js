@@ -12,6 +12,8 @@ function App() {
   return (
     <BrowserRouter BrowserRouter>
       <div className="App">
+
+        {/* navbar */}
         <nav className="flex">
           <div className="flex maxwidth navbar">
           <div className="logo">
@@ -30,16 +32,14 @@ function App() {
           </div>
           </div>
         </nav>
+
+        {/* Content */}
         <div className="content">
-          <CodeofConduct/>
           <Home/>
-          <Speakers/>
-          <Faq/>
-        {/* <Routes>
-            <Route exact path="/" element={<Home/>}/>
-            <Route path="/Speakers" element={Speakers}/>
-            <Route path="/Faq" element={Faq}/>
-            </Routes> */}
+          {/* <Speakers/>
+          <CodeofConduct/>
+          <Faq/> */}
+        
           </div>
       </div>
     </BrowserRouter>
