@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   max-width: 100vw;
+  font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 .App {
   max-width: 100vw;
@@ -55,25 +56,26 @@ margin-left: 3rem;
   height: 78vh;
 }
 .bottem{
-  height: 35vh;
-  background-color: rgb(212, 75, 121);
+  
+  background-color:#4285f4;
 }
 .homeleft{
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   height: 100%;
   width: 55%;
 }
 .homeright{
-  background-color: rgb(24, 43, 129);
+  /* background-color: rgb(24, 43, 129); */
   height: 100%;
   width: 45%;
 }
 .btn{
  font-size: 1.1rem;
- padding: 9px 12px;
+ padding: 10px 14px;
  border: none;
  font-weight: 500;
  border-radius: 4px;
+ color: white;
 }
 .btn1{
   background-color:#4285f4;
@@ -88,6 +90,55 @@ margin-left: 3rem;
 .textbox{
   padding-left: 10vw;
 }
+.textbox h1{
+  color: rgb(66 133 244);
+  font-weight: 400;
+  font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin-bottom: 1.5rem;
+   
+}
+.textbox p{
+  color: rgb(67, 67, 67);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  
+}
+.textbox h5{
+  color: rgb(34, 34, 34);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-top: 1.5rem!important;
+  font-weight: 400;
+}
+.textbox button{
+  margin-top: 1.5rem;
+}
+.bottem{
+  color: white;
+  padding: 2rem 10vw;
+  padding-right: 35vw;
+}
+.bottem h2{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.bottem p{
+  margin-bottom: 1.5rem!important;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.bottem button{
+  background-color: transparent!important;
+  padding-bottom: 0.5rem!important;
+    padding-top: 0.5rem!important;
+    padding-left: 1.5rem!important;
+    padding-right: 1.5rem!important;
+   
+    border: 2px solid white;
+}
 
 
 
@@ -96,11 +147,25 @@ margin-left: 3rem;
 /* speaker section */
 #Speakers{
   background-color: rgb(228, 80, 174);
-  height: 60vh;
+  
   width: 100%;
+}
+.card-grid{
+  display: grid;
+  column-gap: 8rem;
+  row-gap: 50px;
+  grid-template-columns: repeat(auto-fill, 186px);
+}
+.speaker-card{
+  height: 30vh;
+  background-color: rgba(127, 255, 212, 0.656);
+  min-width: 15rem;
+  max-width: 25rem;
 }
 
 
+
+/* CodeofConduct section */
 #CodeofConduct{
   background-color: blue;
   height: 60vh;

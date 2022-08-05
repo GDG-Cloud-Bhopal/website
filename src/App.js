@@ -36,9 +36,9 @@ function App() {
         {/* Content */}
         <div className="content">
           <Home/>
-          {/* <Speakers/>
+          <Speakers/>
           <CodeofConduct/>
-          <Faq/> */}
+          <Faq/>
         
           </div>
       </div>
