@@ -7,6 +7,7 @@ import CodeofConduct from "./Components/CodeofConduct";
 import Faq from "./Components/Faq";
 import Home from "./Components/Home";
 import Speakers from "./Components/Speakers";
+import Partners from "./Components/Partners"
 
 function App() {
   return (
@@ -37,8 +38,9 @@ function App() {
         <div className="content">
           <Home/>
           <Speakers/>
-          {/* <CodeofConduct/>
-          <Faq/> */}
+          <CodeofConduct/>
+          {/* <Faq/> */}
+          <Partners/>
         
           </div>
       </div>
