@@ -3,8 +3,10 @@ import React from 'react'
 const CodeofConduct = () => {
   return (
     <div id='CodeofConduct'>
+      <div className="heading">
       <h2>Google Event Code of Conduct</h2>
       <p>oogle is dedicated to providing a harassment-free and inclusive event experience for everyone regardless of gender identity and expression, sexual orientation, disabilities, neurodiversity, physical appearance, body size, ethnicity, nationality, race, age, religion, or other protected category. We do not tolerate harassment of event participants in any form. Google takes violations of our policy seriously and will respond appropriately.</p>
+      </div>
       <div className="darkbox">
         <div className="darkboxdiv box1">
           <h3>Be excellent to each other</h3>

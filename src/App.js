@@ -14,7 +14,7 @@ function App() {
       <div className="App">
 
         {/* navbar */}
-        <nav className="flex">
+        {/* <nav className="flex">
           <div className="flex maxwidth navbar">
           <div className="logo">
             <img src={logo} alt="" />
@@ -31,14 +31,14 @@ function App() {
             </div>
           </div>
           </div>
-        </nav>
+        </nav> */}
 
         {/* Content */}
         <div className="content">
           <Home/>
-          <Speakers/>
+          {/* <Speakers/>
           <CodeofConduct/>
-          <Faq/>
+          <Faq/> */}
         
           </div>
       </div>

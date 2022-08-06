@@ -9,15 +9,17 @@ const Home = () => {
                     <h1>Cloud Community Days 2022</h1>
                     <p>A community organized cloud conference with industry experts presenting on exciting topics! Cloud Community Day is powered by a shared belief that when developers come together to exchange ideas, amazing things can happen.</p>
                     <h5>Organized By :</h5>
-                    <img src="" alt="" />
-                    <h5>Date: 25 septembur</h5>
+                    <img src="	https://gdgcloud.kolkata.dev/ccd2022/static/media/logo.26ff8abf519779175358.png" alt="" />
+                    <h6>Date: 25 septembur</h6>
                     <div className="flex button">
                         <button className='btn btn1'>Register Now</button>
                         <button className='btn btn2'>Become a Speaker</button>
                     </div>
                   </div>
                 </div>
-                <div className="homeright"></div>
+                <div className="homeright">
+                    <img src="https://img.freepik.com/free-vector/people-putting-puzzle-pieces-together_52683-28610.jpg?w=2000" alt="" />
+                </div>
             </div>
             <div className="bottem">
                 <h2>Hello, CCD22</h2>
