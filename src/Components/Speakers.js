@@ -12,23 +12,107 @@ const Speakers = () => {
         <h4>Sumit Choudhary</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dicta voluptatem minus eaque. Dignissimos iure</p>
         <div className="socialmedia">
-          
+          <img src={require("../img/facebook.png")} alt="" />
+          <img src={require("../img/Vector.png")} alt="" />
+          <img src={require("../img/web.png")} alt="" />
+          <img src={require("../img/Group 1.png")} alt="" />
+          <img src={require("../img/Group 2.png")} alt="" />
         </div>
         </div>
-        <div className="speaker-card">  
+    
+        <div className="speaker-card"> 
+        <img src="https://sessionize.com/image/4952-400o400o2-ak93xPqkbF4SbF1uc9yEc6.jpg" alt="" /> 
+        <h4>Sumit Choudhary</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dicta voluptatem minus eaque. Dignissimos iure</p>
+        <div className="socialmedia">
+          <img src={require("../img/facebook.png")} alt="" />
+          <img src={require("../img/Vector.png")} alt="" />
+          <img src={require("../img/web.png")} alt="" />
+          <img src={require("../img/Group 1.png")} alt="" />
+          <img src={require("../img/Group 2.png")} alt="" />
         </div>
-        <div className="speaker-card">  
         </div>
-        <div className="speaker-card">  
+    
+        <div className="speaker-card"> 
+        <img src="https://sessionize.com/image/4952-400o400o2-ak93xPqkbF4SbF1uc9yEc6.jpg" alt="" /> 
+        <h4>Sumit Choudhary</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dicta voluptatem minus eaque. Dignissimos iure</p>
+        <div className="socialmedia">
+          <img src={require("../img/facebook.png")} alt="" />
+          <img src={require("../img/Vector.png")} alt="" />
+          <img src={require("../img/web.png")} alt="" />
+          <img src={require("../img/Group 1.png")} alt="" />
+          <img src={require("../img/Group 2.png")} alt="" />
         </div>
-        <div className="speaker-card">  
         </div>
-        <div className="speaker-card">  
+    
+        <div className="speaker-card"> 
+        <img src="https://sessionize.com/image/4952-400o400o2-ak93xPqkbF4SbF1uc9yEc6.jpg" alt="" /> 
+        <h4>Sumit Choudhary</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dicta voluptatem minus eaque. Dignissimos iure</p>
+        <div className="socialmedia">
+          <img src={require("../img/facebook.png")} alt="" />
+          <img src={require("../img/Vector.png")} alt="" />
+          <img src={require("../img/web.png")} alt="" />
+          <img src={require("../img/Group 1.png")} alt="" />
+          <img src={require("../img/Group 2.png")} alt="" />
         </div>
-        <div className="speaker-card">  
         </div>
-        <div className="speaker-card">  
+    
+        <div className="speaker-card"> 
+        <img src="https://sessionize.com/image/4952-400o400o2-ak93xPqkbF4SbF1uc9yEc6.jpg" alt="" /> 
+        <h4>Sumit Choudhary</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dicta voluptatem minus eaque. Dignissimos iure</p>
+        <div className="socialmedia">
+          <img src={require("../img/facebook.png")} alt="" />
+          <img src={require("../img/Vector.png")} alt="" />
+          <img src={require("../img/web.png")} alt="" />
+          <img src={require("../img/Group 1.png")} alt="" />
+          <img src={require("../img/Group 2.png")} alt="" />
         </div>
+        </div>
+    
+        <div className="speaker-card"> 
+        <img src="https://sessionize.com/image/4952-400o400o2-ak93xPqkbF4SbF1uc9yEc6.jpg" alt="" /> 
+        <h4>Sumit Choudhary</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dicta voluptatem minus eaque. Dignissimos iure</p>
+        <div className="socialmedia">
+          <img src={require("../img/facebook.png")} alt="" />
+          <img src={require("../img/Vector.png")} alt="" />
+          <img src={require("../img/web.png")} alt="" />
+          <img src={require("../img/Group 1.png")} alt="" />
+          <img src={require("../img/Group 2.png")} alt="" />
+        </div>
+        </div>
+    
+        <div className="speaker-card"> 
+        <img src="https://sessionize.com/image/4952-400o400o2-ak93xPqkbF4SbF1uc9yEc6.jpg" alt="" /> 
+        <h4>Sumit Choudhary</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dicta voluptatem minus eaque. Dignissimos iure</p>
+        <div className="socialmedia">
+          <img src={require("../img/facebook.png")} alt="" />
+          <img src={require("../img/Vector.png")} alt="" />
+          <img src={require("../img/web.png")} alt="" />
+          <img src={require("../img/Group 1.png")} alt="" />
+          <img src={require("../img/Group 2.png")} alt="" />
+        </div>
+        </div>
+    
+        <div className="speaker-card"> 
+        <img src="https://sessionize.com/image/4952-400o400o2-ak93xPqkbF4SbF1uc9yEc6.jpg" alt="" /> 
+        <h4>Sumit Choudhary</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dicta voluptatem minus eaque. Dignissimos iure</p>
+        <div className="socialmedia">
+          <img src={require("../img/facebook.png")} alt="" />
+          <img src={require("../img/Vector.png")} alt="" />
+          <img src={require("../img/web.png")} alt="" />
+          <img src={require("../img/Group 1.png")} alt="" />
+          <img src={require("../img/Group 2.png")} alt="" />
+        </div>
+        </div>
+    
+        
+    
 
       </div>
     </div>

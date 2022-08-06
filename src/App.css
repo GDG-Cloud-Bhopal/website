@@ -173,13 +173,14 @@ nav .logo img {
 }
 #Speakers p {
   max-width: 42rem;
-  text-align: center !important;
-  margin-top: 0.5rem !important;
+  text-align: center ;
+  margin-top: 0.5rem ;
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.5rem;
   color: rgba(0, 0, 0, 0.707);
   margin-bottom: 3rem;
+  padding: 0 1rem;
 }
 .card-grid {
   display: grid;
@@ -192,13 +193,17 @@ nav .logo img {
   padding: 1.5rem !important;
   border: 1px solid #dee2e6 !important;
   transition-duration: 0.3s;
-
-  min-width: 13rem;
+  border-radius: 15px;
+  min-width: 15rem;
   max-width: 25rem;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
+}
+.speaker-card:hover{
+  transform: translateY(-10px);
+  box-shadow: 0px 0.5px 20px  rgb(168, 168, 168) ;
 }
 .speaker-card img {
   border-style: solid;
@@ -210,18 +215,29 @@ nav .logo img {
   height: 9rem;
   vertical-align: middle;
 }
+.socialmedia{
+  display: flex;
+  margin-bottom: 1.2rem;
+}
+.socialmedia img{
+  height: 20px;
+  width: 20px;
+  border: none;
+  padding: 0 8px;
+}
 .speaker-card h4 {
-  text-align: center !important;
-  margin-top: 1.5rem !important;
+  text-align: center ;
+  margin-top: 1.5rem ;
   font-weight: 300;
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
-.speaker-card p {
-  margin-top: 0.5rem !important;
+.speaker-card p{
+  margin-top: 0.5rem ;
   font-size: 0.875rem;
   line-height: 1.25rem;
   max-width: 24rem;
+  margin-bottom: 15px !important;
 }
 
 /* CodeofConduct section */
@@ -292,9 +308,6 @@ nav .logo img {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-
-
-
 
 
 /* media quirey----  1030 ---- */
