@@ -21,6 +21,10 @@ const Partners = () => {
           <img src="	https://gdgcloud.kolkata.dev/ccd2022/static/media/gdsc-nsec-logo.12be21c4479978a55fee.png" alt="" />
           <img src="	https://gdgcloud.kolkata.dev/ccd2022/static/media/gdsc-nsec-logo.12be21c4479978a55fee.png" alt="" />
           <img src="	https://gdgcloud.kolkata.dev/ccd2022/static/media/gdsc-nsec-logo.12be21c4479978a55fee.png" alt="" />
+          <img src="	https://gdgcloud.kolkata.dev/ccd2022/static/media/gdsc-nsec-logo.12be21c4479978a55fee.png" alt="" />
+          <img src="	https://gdgcloud.kolkata.dev/ccd2022/static/media/gdsc-nsec-logo.12be21c4479978a55fee.png" alt="" />
+          <img src="	https://gdgcloud.kolkata.dev/ccd2022/static/media/gdsc-nsec-logo.12be21c4479978a55fee.png" alt="" />
+          <img src="	https://gdgcloud.kolkata.dev/ccd2022/static/media/gdsc-nsec-logo.12be21c4479978a55fee.png" alt="" />
         </div>
       </div>
     </div>
