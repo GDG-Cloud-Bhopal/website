@@ -8,6 +8,7 @@ import Faq from "./Components/Faq";
 import Home from "./Components/Home";
 import Speakers from "./Components/Speakers";
 import Partners from "./Components/Partners"
+import Footer from "./Components/Footer"
 
 function App() {
   return (
@@ -15,14 +16,14 @@ function App() {
       <div className="App">
 
         {/* navbar */}
-        {/* <nav className="flex">
+        <nav className="flex">
           <div className="flex maxwidth navbar">
           <div className="logo">
             <img src={logo} alt="" />
           </div>
           <div className="flex navComp">
             <div className="linkbox">
-              <Link className="link" exact to="#Home" smooth>Home</Link>
+              <Link className="link" exact to="#flex" smooth>Home</Link>
             </div>
             <div className="linkbox">
               <Link className="link" to="#Speakers" smooth>Speakers</Link>
@@ -32,15 +33,16 @@ function App() {
             </div>
           </div>
           </div>
-        </nav> */}
+        </nav>
 
         {/* Content */}
         <div className="content">
           <Home/>
           <Speakers/>
           <CodeofConduct/>
-          {/* <Faq/> */}
+          <Faq/>
           <Partners/>
+          <Footer/>
         
           </div>
       </div>

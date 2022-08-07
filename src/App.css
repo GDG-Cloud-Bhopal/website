@@ -1,11 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+
+  /* font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Emoji, Segoe UI Symbol,
-    Noto Color Emoji;
+    Noto Color Emoji; */
+
+  font-family: google-sans, Helvetica, Arial, Sans-Serif;
 }
 .App {
   /* width: 100vw; */
@@ -54,7 +56,8 @@ nav .logo img {
 }
 .leanding {
   min-height: 33rem;
-  margin-top: 4rem;
+  margin-top: 6rem;
+  padding-bottom: 2rem;
 }
 .bottem {
   background-color: #4285f4;
@@ -70,7 +73,7 @@ nav .logo img {
   width: 43%;
   overflow-x: hidden;
 }
-.homeright img{
+.homeright img {
   /* background-size: cover; */
   width: 100%;
 }
@@ -82,26 +85,49 @@ nav .logo img {
   border-radius: 4px;
   color: white;
   cursor: pointer;
+  box-sizing: border-box;
 }
+.button {
+  height: 2rem;
+}
+
 .btn1 {
-  background-color: #4285f4;
-  margin-right: 2rem;
+  background-color: #fbbc05;
+  margin-right: 40px;
 }
 .btn2 {
-  background-color: #fbbc05;
+  background-color: #34a853;
 }
 .btn3 {
   background-color: #34a853;
 }
+.btn:hover {
+  background-color: transparent;
+}
+.btn1:hover {
+  border: 2px solid #fbbc05;
+  color: #fbbc05;
+  margin-right: 36px;
+}
+.btn2:hover {
+  border: 2px solid#34a853;
+  color: #34a853;
+}
 .textbox {
   padding-left: 10vw;
 }
+.textbox .googlecloud {
+  height: 1.75rem;
+  padding-bottom: 1rem;
+}
 .textbox h1 {
   color: rgb(66 133 244);
-  font-weight: 400;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+  font-weight: bold;
+  font-size: 3.9rem;
+  line-height: 3.9rem;
   margin-bottom: 1.5rem;
+  font-family: google-sans, Helvetica, Arial, Sans-Serif;
+  max-width: 35rem;
 }
 .textbox p {
   color: rgb(67, 67, 67);
@@ -141,16 +167,16 @@ nav .logo img {
   margin-bottom: 1.5rem;
 }
 .bottem p {
-  margin-bottom: 1.5rem ;
+  margin-bottom: 1.5rem;
   font-size: 1rem;
   line-height: 1.5rem;
 }
 .bottem button {
-  background-color: transparent ;
-  padding-bottom: 0.5rem ;
-  padding-top: 0.5rem ;
-  padding-left: 1.5rem ;
-  padding-right: 1.5rem ;
+  background-color: transparent;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   border: 2px solid white;
 }
 
@@ -173,8 +199,8 @@ nav .logo img {
 }
 #Speakers p {
   max-width: 42rem;
-  text-align: center ;
-  margin-top: 0.5rem ;
+  text-align: center;
+  margin-top: 0.5rem;
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -201,9 +227,9 @@ nav .logo img {
   display: flex;
   flex-direction: column;
 }
-.speaker-card:hover{
+.speaker-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0px 0.5px 20px  rgb(168, 168, 168) ;
+  box-shadow: 0px 0.5px 20px rgb(168, 168, 168);
 }
 .speaker-card img {
   border-style: solid;
@@ -215,25 +241,25 @@ nav .logo img {
   height: 9rem;
   vertical-align: middle;
 }
-.socialmedia{
+.socialmedia {
   display: flex;
   margin-bottom: 1.2rem;
 }
-.socialmedia img{
+.socialmedia img {
   height: 20px;
   width: 20px;
   border: none;
   padding: 0 8px;
 }
 .speaker-card h4 {
-  text-align: center ;
-  margin-top: 1.5rem ;
+  text-align: center;
+  margin-top: 1.5rem;
   font-weight: 300;
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
-.speaker-card p{
-  margin-top: 0.5rem ;
+.speaker-card p {
+  margin-top: 0.5rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
   max-width: 24rem;
@@ -268,7 +294,7 @@ nav .logo img {
   border-radius: 15px;
   display: flex;
 }
-.darkboxdiv{
+.darkboxdiv {
   padding: 1.5rem 0.5rem 1.5rem 1.5rem;
 }
 .darkboxdiv h3 {
@@ -284,19 +310,21 @@ nav .logo img {
   line-height: 1.5rem;
   color: rgb(46, 46, 46);
 }
-.box1,.box2,.box3{
+.box1,
+.box2,
+.box3 {
   width: 33%;
 }
 
 /* faq section */
 #Faq {
-  background-color: rgb(48, 195, 121);
+  background-color: rgb(194, 250, 222);
   height: 60vh;
   width: 100%;
 }
 
 /* Partners section */
-.Partners{
+.Partners {
   width: 80vw;
   padding: 1rem 10vw;
   display: flex;
@@ -318,40 +346,110 @@ nav .logo img {
   font-weight: 400;
 }
 
-.sponsor button{
- font-size: 1rem;
- background-color: transparent;
- border: 2px solid 	#EA4335;
- color: #EA4335;
- padding: 4px 8px;
- margin-bottom: 1.5rem;
+.sponsor button {
+  font-size: 1rem;
+  background-color: transparent;
+  border: 2px solid #ea4335;
+  color: #ea4335;
+  padding: 4px 8px;
+  margin-bottom: 1.5rem;
 }
-.sponsor img{
-  width:27vw ;
+.sponsor img {
+  width: 27vw;
   min-width: 16rem;
   margin-right: 1rem;
 }
-.sponsorimg{
+.sponsorimg {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.community img{
+.community img {
   width: 15vw;
   min-width: 13rem;
   margin-left: 0.3rem;
 }
-.communityimg{
+.communityimg {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
+/* footer section */
+.Footer {
+  width: 100%;
+  /* background-color: rgb(250, 250, 250); */
+  border-top: 1px solid rgb(230, 230, 230);
+  margin-top: 1.5rem;
+}
+.Footergrid {
+  display: grid;
+  padding: 0 10vw;
+  padding-bottom: 20px;
+  background-color:rgb(250, 250, 250);
+  border-top: 1px solid rgb(230, 230, 230);
+  grid-template-areas:
+    "follow follow follow"
+    "about resources contact";
+}
 
-
+.follow {
+  grid-area: follow;
+  border-bottom: 2px solid rgb(230, 230, 230);;
+  display: flex;
+  padding: 20px 0;
+}
+.about {
+  grid-area: about;
+}
+.resources {
+  grid-area: resources;
+}
+.contact {
+  grid-area: contact;
+}
+.contactbox{
+  display: flex;
+}
+.followicon svg{
+  height: 20px;
+  color: #565f6e;
+  margin: 0 12px;
+}
+.contact svg{
+  height: 20px;
+  color: #565f6e;
+  margin-right: 8px;
+}
+.Footergrid h3{
+  margin-bottom: 1rem!important;
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.Footergrid a{
+  text-decoration-line: none;
+  color: #8d8d8d;
+  font-weight: 300;
+}
+.Footergrid p{
+  padding-bottom: 14px;
+}
+.copyright{
+  background-color: #e0e0e0;
+  padding: 20px 0;
+  text-align: center;
+  
+}
+.copyright a{
+  color: rgb(44, 44, 44);
+  text-decoration: none;
+  font-size: 1rem;
+  
+}
 
 /* meadia quireay */
 @media (min-width: 600px) {
@@ -363,7 +461,6 @@ nav .logo img {
   .card-grid {
     grid-template-columns: repeat(3, 1fr);
   }
- 
 }
 @media (min-width: 1200px) {
   .card-grid {
@@ -371,30 +468,29 @@ nav .logo img {
   }
 }
 
-
 /* media quirey----  1030 ---- */
 @media (max-width: 1030px) {
   .leanding {
     flex-direction: column;
   }
-  .homeleft{
+  .homeleft {
     width: 100%;
   }
-  .textbox{
+  .textbox {
     padding-left: 2rem;
     padding-right: 2rem;
   }
   .homeright {
     width: 85vw;
   }
-  .bottem{
+  .bottem {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .heading{
+  .heading {
     padding-left: 2rem;
   }
-  .darkbox{
+  .darkbox {
     margin: 2rem 0;
     padding: 0 2rem;
     border-radius: 0;
@@ -403,19 +499,41 @@ nav .logo img {
 
 /* media quirey----  405 ---- */
 @media (max-width: 405px) {
- .btn{
-  padding: 5px 7px;
-  font-size: 16px;
- }
- .btn1{
-  margin-right: 1rem;
- }
+  .btn {
+    padding: 5px 7px;
+    font-size: 16px;
+  }
+  .btn1 {
+    margin-right: 1rem;
+  }
 }
 @media (max-width: 900px) {
-  .darkbox{
+  .darkbox {
     flex-direction: column;
   }
-  .box1,.box2,.box3{
+  .box1,
+  .box2,
+  .box3 {
     width: 100%;
   }
 }
+@media (max-width: 700px) {
+ .Footergrid{grid-template-areas:
+  "follow follow "
+  "about resources "
+  "contact contact";
+ }
+}
+@media (max-width: 480px) {
+ .Footergrid{grid-template-areas:
+  "follow"
+  "about"
+  " resources "
+  "contact";
+ }
+ .followicon svg{
+  height: 18px;
+  margin-left: 8px;
+ }
+}
+
