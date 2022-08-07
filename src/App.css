@@ -19,37 +19,11 @@
   align-items: center;
 }
 
-/* navigation */
-nav {
-  width: 100vw;
-  max-width: 100vw;
-  background-color: rgba(255, 255, 255, 0.79);
-  max-height: 5em;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-.maxwidth {
-  width: 75%;
-}
-.navbar {
-  justify-content: space-between;
-}
-nav .logo img {
-  height: 4em;
-}
-.navComp .linkbox .link {
-  text-decoration: none;
-  font-size: 25px;
-}
-.navComp .linkbox {
-  margin-left: 3rem;
-}
+
+
 
 /* home */
 #Home {
-  background-color: rgb(243, 222, 185);
   height: auto;
   width: 100vw;
   overflow-x: hidden;
@@ -58,6 +32,7 @@ nav .logo img {
   min-height: 33rem;
   margin-top: 6rem;
   padding-bottom: 2rem;
+  background-color: white;
 }
 .bottem {
   background-color: #4285f4;
@@ -89,6 +64,7 @@ nav .logo img {
 }
 .button {
   height: 2rem;
+  margin-bottom: 2rem;
 }
 
 .btn1 {
@@ -134,11 +110,21 @@ nav .logo img {
   font-size: 1rem;
   line-height: 1.5rem;
 }
+.calender {
+  display: flex;
+  align-items: center;
+}
+.calender img {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
 .textbox h5 {
   color: rgb(34, 34, 34);
-  font-size: 1rem;
+  font-size: 1.25rem;
   line-height: 1.5rem;
   padding-top: 1.5rem !important;
+  /* padding-bottom: 1rem; */
   font-weight: 400;
 }
 .textbox h6 {
@@ -322,59 +308,57 @@ nav .logo img {
   width: 100%;
   display: flex;
 }
-.faqtaxt{
+.faqtaxt {
   width: 30%;
 }
-.faqtaxt h2{
-  margin-bottom: 1.5rem!important;
+.faqtaxt h2 {
+  margin-bottom: 1.5rem !important;
   color: rgb(66 133 244);
   font-weight: 300;
   font-size: 1.875rem;
-    line-height: 2.25rem;
+  line-height: 2.25rem;
 }
-.faqtaxt p{
+.faqtaxt p {
   width: 80%;
   color: rgb(102 102 102);
   font-size: 1rem;
   line-height: 1.5rem;
 }
-.faqtaxt p:nth-child(3){
+.faqtaxt p:nth-child(3) {
   padding-bottom: 0.8rem;
 }
-.accordian{
-  background-color:#e8e8e8;
+.accordian {
+  background-color: #e8e8e8;
   border-radius: 10px;
   overflow: hidden;
-  width:50vw;
+  width: 50vw;
 }
 .accordiancontent,
-.accordianlable{
+.accordianlable {
   padding: 18px 25px;
   border: 2px solid white;
 }
-.accordianlable{
+.accordianlable {
   display: block;
   font-weight: 500;
   cursor: pointer;
   position: relative;
   transition: background 0.1s;
-  
 }
-.accordianlable:hover{
+.accordianlable:hover {
   background: #d0d0d0;
 }
 
-
-.accordiancontent{
+.accordiancontent {
   background: #f8f8f8;
-  line-height:1.6 ;
+  line-height: 1.6;
   font-size: 0.85em;
   display: none;
 }
-.acordianinput{
+.acordianinput {
   display: none;
 }
-.acordianinput:checked ~ .accordiancontent{
+.acordianinput:checked ~ .accordiancontent {
   display: block;
 }
 
@@ -443,7 +427,7 @@ nav .logo img {
   display: grid;
   padding: 0 10vw;
   padding-bottom: 20px;
-  background-color:rgb(250, 250, 250);
+  background-color: rgb(250, 250, 250);
   border-top: 1px solid rgb(230, 230, 230);
   grid-template-areas:
     "follow follow follow"
@@ -452,7 +436,7 @@ nav .logo img {
 
 .follow {
   grid-area: follow;
-  border-bottom: 2px solid rgb(230, 230, 230);;
+  border-bottom: 2px solid rgb(230, 230, 230);
   display: flex;
   padding: 20px 0;
 }
@@ -465,45 +449,43 @@ nav .logo img {
 .contact {
   grid-area: contact;
 }
-.contactbox{
+.contactbox {
   display: flex;
 }
-.followicon svg{
+.followicon svg {
   height: 20px;
   color: #565f6e;
   margin: 0 12px;
 }
-.contact svg{
+.contact svg {
   height: 20px;
   color: #565f6e;
   margin-right: 8px;
 }
-.Footergrid h3{
-  margin-bottom: 1rem!important;
+.Footergrid h3 {
+  margin-bottom: 1rem !important;
   margin-top: 1rem;
   font-weight: 400;
   font-size: 1.125rem;
-    line-height: 1.75rem;
+  line-height: 1.75rem;
 }
-.Footergrid a{
+.Footergrid a {
   text-decoration-line: none;
   color: #8d8d8d;
   font-weight: 300;
 }
-.Footergrid p{
+.Footergrid p {
   padding-bottom: 14px;
 }
-.copyright{
+.copyright {
   background-color: #e0e0e0;
   padding: 20px 0;
   text-align: center;
-  
 }
-.copyright a{
+.copyright a {
   color: rgb(44, 44, 44);
   text-decoration: none;
   font-size: 1rem;
-  
 }
 
 /* meadia quireay */
@@ -515,6 +497,9 @@ nav .logo img {
 @media (min-width: 900px) {
   .card-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .hamburger{
+    display: none;
   }
 }
 @media (min-width: 1200px) {
@@ -571,41 +556,45 @@ nav .logo img {
   .box3 {
     width: 100%;
   }
-  .faqtaxt{
+  .faqtaxt {
     width: 100%;
     padding-bottom: 1.5rem;
   }
-  #Faq{
+  #Faq {
     flex-direction: column;
   }
-  .accordian{
+  .accordian {
     margin-right: 20vw;
   }
   .accordian {
     width: 80%;
   }
+  .linkbox{
+    display: none;
+  }
 }
 @media (max-width: 700px) {
- .Footergrid{grid-template-areas:
-  "follow follow "
-  "about resources "
-  "contact contact";
- }
+  .Footergrid {
+    grid-template-areas:
+      "follow follow "
+      "about resources "
+      "contact contact";
+  }
 }
 @media (max-width: 480px) {
- .Footergrid{grid-template-areas:
-  "follow"
-  "about"
-  " resources "
-  "contact";
- }
- .followicon svg{
-  height: 18px;
-  margin-left: 8px;
- }
+  .Footergrid {
+    grid-template-areas:
+      "follow"
+      "about"
+      " resources "
+      "contact";
+  }
+  .followicon svg {
+    height: 18px;
+    margin-left: 8px;
+  }
+  .textbox h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
 }
-
-
-
-
-

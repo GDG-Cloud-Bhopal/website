@@ -9,9 +9,12 @@ const Home = () => {
                     <img className='googlecloud' src="https://cloudcommunitydays.in/img/google-cloud-india.09166173.png" alt="" />
                     <h1>Cloud Community Days 2022</h1>
                     <p>A community organized cloud conference with industry experts presenting on exciting topics! Cloud Community Day is powered by a shared belief that when developers come together to exchange ideas, amazing things can happen.</p>
-                    <h5>Organized By :</h5>
-                    <img src="https://gdgcloud.kolkata.dev/ccd2022/static/media/logo.26ff8abf519779175358.png" alt="" />
-                    <h6>Date: 25 septembur</h6>
+                    <h5>Organized By : GDG Cloud Bhopal</h5>
+                    {/* <img src="https://gdgcloud.kolkata.dev/ccd2022/static/media/logo.26ff8abf519779175358.png" alt="" /> */}
+                    <div className='calender'>
+                    <img  src="https://upload.wikimedia.org/wikipedia/commons/6/69/Calendar_font_awesome.svg" alt="" />
+                    <h6>  Date: 25 septembur</h6>
+                    </div>
                     <div className="flex button">
                         <button className='btn btn1'>Register Now</button>
                         <button className='btn btn2'>Become a Speaker</button>
