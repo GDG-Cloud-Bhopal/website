@@ -1,8 +1,8 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import "./nav.css";
 import logo from "./img/cloudbhopal.png";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter} from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import CodeofConduct from "./Components/CodeofConduct";
 import Faq from "./Components/Faq";
@@ -44,7 +44,7 @@ function App() {
           <div className="social-media">
             {/* hamburget menu start  */}
             <div className="hamburger-menu">
-              <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+              <a href="https://cloudcommunitydays.in/" onClick={() => setShowMediaIcons(!showMediaIcons)}>
               <svg className=" w-6 h-6 text-gray-500 hover:text-green-500 " x-show="!showMenu" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
               </a>
             </div>
