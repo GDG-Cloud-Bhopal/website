@@ -44,9 +44,9 @@ function App() {
           <div className="social-media">
             {/* hamburget menu start  */}
             <div className="hamburger-menu">
-              <a href="https://cloudcommunitydays.in/" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+              <button onClick={() => setShowMediaIcons(!showMediaIcons)}>
               <svg className=" w-6 h-6 text-gray-500 hover:text-green-500 " x-show="!showMenu" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
-              </a>
+              </button>
             </div>
           </div>
         </nav>
