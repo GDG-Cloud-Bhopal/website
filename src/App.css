@@ -318,9 +318,64 @@ nav .logo img {
 
 /* faq section */
 #Faq {
-  background-color: rgb(194, 250, 222);
-  height: 60vh;
+  padding: 0 10vw;
   width: 100%;
+  display: flex;
+}
+.faqtaxt{
+  width: 30%;
+}
+.faqtaxt h2{
+  margin-bottom: 1.5rem!important;
+  color: rgb(66 133 244);
+  font-weight: 300;
+  font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+.faqtaxt p{
+  width: 80%;
+  color: rgb(102 102 102);
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.faqtaxt p:nth-child(3){
+  padding-bottom: 0.8rem;
+}
+.accordian{
+  background-color:#e8e8e8;
+  border-radius: 10px;
+  overflow: hidden;
+  width:50vw;
+}
+.accordiancontent,
+.accordianlable{
+  padding: 18px 25px;
+  border: 2px solid white;
+}
+.accordianlable{
+  display: block;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.1s;
+  
+}
+.accordianlable:hover{
+  background: #d0d0d0;
+}
+
+
+.accordiancontent{
+  background: #f8f8f8;
+  line-height:1.6 ;
+  font-size: 0.85em;
+  display: none;
+}
+.acordianinput{
+  display: none;
+}
+.acordianinput:checked ~ .accordiancontent{
+  display: block;
 }
 
 /* Partners section */
@@ -516,6 +571,19 @@ nav .logo img {
   .box3 {
     width: 100%;
   }
+  .faqtaxt{
+    width: 100%;
+    padding-bottom: 1.5rem;
+  }
+  #Faq{
+    flex-direction: column;
+  }
+  .accordian{
+    margin-right: 20vw;
+  }
+  .accordian {
+    width: 80%;
+  }
 }
 @media (max-width: 700px) {
  .Footergrid{grid-template-areas:
@@ -536,4 +604,8 @@ nav .logo img {
   margin-left: 8px;
  }
 }
+
+
+
+
 
