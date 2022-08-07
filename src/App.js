@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import "./nav.css";
-import logo from "./img/cloudbhopal.png";
+import logo from "./img/GDGCloudBhopal.png";
 import { BrowserRouter} from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import CodeofConduct from "./Components/CodeofConduct";
